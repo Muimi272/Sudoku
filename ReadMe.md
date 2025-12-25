@@ -8,7 +8,7 @@ A graphical Sudoku game developed using Java Swing, offering multiple difficulty
 
 ## 📦 下载游戏 | Download
 
-[![User Guide](https://img.shields.io/badge/用户指南-User%20Guide-blue)](https://github.com/Muimi272/Sudoku/dist/README.md)
+[![User Guide](https://img.shields.io/badge/用户指南-User%20Guide-blue)](https://github.com/Muimi272/Sudoku/blob/main/dist/README.md)
 
 请从仓库的 `dist` 目录下载所有文件来运行游戏。
 
