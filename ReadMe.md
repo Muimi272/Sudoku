@@ -24,7 +24,7 @@ A graphical Sudoku game developed using Java Swing, offering multiple difficulty
 ## 🚀 快速开始 | Quick Start
 
 ### 对于玩家 | For Players
-1. 访问 [Releases页面](https://github.com/Muimi272/Sudoku/releases) 下载最新版本
+1. 访问 [Dist页面](https://github.com/Muimi272/Sudoku/dist) 下载最新版本
 2. 解压下载的压缩包
 3. 双击 `Start.bat` 启动游戏
 4. 详细使用说明请查看 [用户指南](README_USER.md)
@@ -67,9 +67,7 @@ src/main/java/sudoku/
 ├── Main.java          # 主程序入口 | Main program entry
 ├── Sudoku.java        # 数独游戏逻辑 | Sudoku game logic
 ├── Window.java        # 游戏窗口界面 | Game window interface
-├── RoundButton.java   # 自定义圆角按钮组件 | Custom round button component
-└── META-INF/
-    └── MANIFEST.MF    # JAR清单文件 | JAR manifest file
+└── RoundButton.java   # 自定义圆角按钮组件 | Custom round button component
 ```
 
 ### 发布文件 | Release Files
