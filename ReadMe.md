@@ -4,12 +4,13 @@
 
 A graphical Sudoku game developed using Java Swing, offering multiple difficulty levels and a user-friendly interface.
 
-![GitHub release](https://img.shields.io/github/release/Muimi272/Sudoku) ![License](https://img.shields.io/badge/license-Dual%20License-blue) ![Java](https://img.shields.io/badge/Java-8%2B-orange) ![Platform](https://img.shields.io/badge/platform-Windows-green)
+![License](https://img.shields.io/badge/license-Dual%20License-blue) ![Java](https://img.shields.io/badge/Java-8%2B-orange) ![Platform](https://img.shields.io/badge/platform-Windows-green)
 
 ## 📦 下载游戏 | Download
 
-[![Download](https://img.shields.io/badge/Download-最新版本-brightgreen)](https://github.com/Muimi272/Sudoku/releases/latest)
-[![User Guide](https://img.shields.io/badge/用户指南-User%20Guide-blue)](https://github.com/Muimi272/Sudoku/blob/main/README_USER.md)
+[![User Guide](https://img.shields.io/badge/用户指南-User%20Guide-blue)](https://github.com/Muimi272/Sudoku/dist/README.md)
+
+请从仓库的 `dist` 目录下载所有文件来运行游戏。
 
 ---
 
@@ -23,13 +24,13 @@ A graphical Sudoku game developed using Java Swing, offering multiple difficulty
 
 ## 🚀 快速开始 | Quick Start
 
-### 对于玩家 | For Players
-1. 访问 [Dist页面](https://github.com/Muimi272/Sudoku/dist) 下载最新版本
-2. 解压下载的压缩包
+### 方式一：直接运行（推荐）| Direct Run (Recommended)
+1. 下载 `dist` 目录下的所有文件
+2. 进入 `dist` 目录
 3. 双击 `Start.bat` 启动游戏
-4. 详细使用说明请查看 [用户指南](README_USER.md)
+4. 详细使用说明请查看 [用户指南](dist/README.md)
 
-### 对于开发者 | For Developers
+### 方式二：编译运行 | Compile and Run
 ```bash
 # 克隆仓库
 git clone https://github.com/Muimi272/Sudoku.git
@@ -39,9 +40,6 @@ javac src/main/java/sudoku/*.java
 
 # 运行游戏
 java -cp src/main/java sudoku.Main
-
-# 创建JAR文件
-jar cfe Sudoku.jar sudoku.Main -C src/main/java .
 ```
 
 ## 功能特性 | Features
@@ -67,7 +65,9 @@ src/main/java/sudoku/
 ├── Main.java          # 主程序入口 | Main program entry
 ├── Sudoku.java        # 数独游戏逻辑 | Sudoku game logic
 ├── Window.java        # 游戏窗口界面 | Game window interface
-└── RoundButton.java   # 自定义圆角按钮组件 | Custom round button component
+├── RoundButton.java   # 自定义圆角按钮组件 | Custom round button component
+└── META-INF/
+    └── MANIFEST.MF    # JAR清单文件 | JAR manifest file
 ```
 
 ### 发布文件 | Release Files
@@ -164,37 +164,22 @@ This project uses a dual license. For detailed information, please see the [LICE
 - **邮箱**：Muimi_mail@163.com
 - **Email**: Muimi_mail@163.com
 
-## 📋 版本历史 | Version History
+## 📋 版本信息 | Version Information
 
-### v1.0.0 (2024-12-25)
-- ✨ 初始版本发布
+### 当前版本 | Current Version
 - 🎮 基础数独游戏功能
 - 🎨 现代化UI设计
-- 🎯 三种难度级别
-
-## 🗺️ 路线图 | Roadmap
-
-- [ ] 添加游戏进度保存功能
-- [ ] 支持自定义数独谜题
-- [ ] 添加计时器和排行榜
-- [ ] 支持Mac和Linux系统
-- [ ] 添加更多主题和皮肤
+- 🎯 三种难度级别（简单、中等、困难）
 
 ## 🤝 贡献 | Contributing
 
 欢迎提交Issue和Pull Request来改进这个项目！
 Welcome to submit Issues and Pull Requests to improve this project!
 
-### 贡献指南 | Contributing Guidelines
-1. Fork 本仓库
-2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 创建 Pull Request
+---
 
-## ⭐ 致谢 | Acknowledgments
-
-感谢所有对此项目做出贡献的开发者和用户！
+*享受数独游戏的乐趣！*
+*Enjoy the fun of Sudoku game!*
 
 ---
 
