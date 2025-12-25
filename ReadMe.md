@@ -75,9 +75,11 @@ dist/
 ├── Start_with_console.bat       # 调试启动脚本
 ├── Sudoku.jar                   # 游戏核心文件
 ├── runtime/                     # Java运行环境
-│   ├── bin/                     # 可执行文件
-│   ├── lib/                     # 系统库文件
-│   └── conf/                    # 配置文件
+│   ├── bin/                     
+│   ├── lib/                     
+│   ├── legal/                   
+│   ├── include/                 
+│   └── conf/                    
 ├── ReadMe.pdf                   # 原始使用文档
 └── README_USER.md               # 用户指南
 ```
