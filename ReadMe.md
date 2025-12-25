@@ -65,9 +65,7 @@ src/main/java/sudoku/
 ├── Main.java          # 主程序入口 | Main program entry
 ├── Sudoku.java        # 数独游戏逻辑 | Sudoku game logic
 ├── Window.java        # 游戏窗口界面 | Game window interface
-├── RoundButton.java   # 自定义圆角按钮组件 | Custom round button component
-└── META-INF/
-    └── MANIFEST.MF    # JAR清单文件 | JAR manifest file
+└── RoundButton.java   # 自定义圆角按钮组件 | Custom round button component
 ```
 
 ### 发布文件 | Release Files
