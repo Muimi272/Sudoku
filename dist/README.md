@@ -2,7 +2,7 @@
 
 > 一款基于Java Swing开发的经典数独解谜游戏，无需安装Java环境即可运行！
 
-![数独游戏](https://img.shields.io/badge/版本-1.0-blue.svg) ![平台-Windows-green.svg) ![语言-中文-orange.svg)
+![数独游戏](https://img.shields.io/badge/版本-1.0-blue.svg)
 
 ---
 
